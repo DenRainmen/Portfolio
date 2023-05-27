@@ -1,0 +1,14 @@
+.main {
+  /* height: calc(100vh - 80px); */
+  background-color: pink;
+  padding: 20px;
+}
+
+.gretting {
+}
+
+.photo {
+  width: 300px;
+  height: 400px;
+  background-color: grey;
+}
