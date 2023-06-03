@@ -5,7 +5,7 @@ import c from "../common/styles/Container.module.css";
 
 export const Footer = () => {
   return (
-    <div className={s.footer}>
+    <footer className={s.footer}>
       <div className={`${c.container} ${c.footer}`}>
         <h3>Denis Potarykin</h3>
         <div className={c.photos}>
@@ -16,6 +16,6 @@ export const Footer = () => {
         </div>
         <span>2023. All rights reserved.</span>
       </div>
-    </div>
+    </footer>
   );
 };

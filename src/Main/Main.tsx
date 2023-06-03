@@ -4,7 +4,7 @@ import c from "../common/styles/Container.module.css";
 
 export const Main = () => {
   return (
-    <div className={s.main}>
+    <section className={s.main}>
       <div className={`${c.container} ${c.main}`}>
         <div className={s.greeting}>
           <span>Hi !</span>
@@ -16,6 +16,6 @@ export const Main = () => {
           <img src="" alt="" />
         </div>
       </div>
-    </div>
+    </section>
   );
 };

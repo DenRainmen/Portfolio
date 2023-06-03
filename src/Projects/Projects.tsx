@@ -7,7 +7,7 @@ import { ProjectCard } from "./ProjectCard";
 
 export const Projects = () => {
   return (
-    <div className={s.project}>
+    <section className={s.project}>
       <h2>My Projects</h2>
       <div className={`${c.container} ${c.project}`}>
         <ProjectCard
@@ -29,6 +29,6 @@ export const Projects = () => {
           projectTitle={"Project 3"}
         />
       </div>
-    </div>
+    </section>
   );
 };

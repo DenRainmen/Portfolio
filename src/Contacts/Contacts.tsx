@@ -4,7 +4,7 @@ import c from "../common/styles/Container.module.css";
 
 export const Contacts = () => {
   return (
-    <div className={s.contacts}>
+    <section className={s.contacts}>
       <h3>Contacts</h3>
       <div className={`${c.container} ${c.contacts}`}>
         <form action="">
@@ -14,6 +14,6 @@ export const Contacts = () => {
           <input type="button" value="Submit" />
         </form>
       </div>
-    </div>
+    </section>
   );
 };

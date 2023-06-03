@@ -6,7 +6,7 @@ import { SkillCard } from "./SkillCard";
 
 export const Skills = () => {
   return (
-    <div className={s.skills}>
+    <section className={s.skills}>
       <h2>My skills</h2>
       <div className={`${c.container} ${c.skills}`}>
         <SkillCard
@@ -19,6 +19,6 @@ export const Skills = () => {
           skillDecription={"Decription for JavaScript"}
         />
       </div>
-    </div>
+    </section>
   );
 };
