@@ -14,7 +14,7 @@ export const Footer = () => {
           <img src="" alt="" />
           <img src="" alt="" />
         </div>
-        <span>2023. All rights reserved.</span>
+        <span>2024. All rights reserved.</span>
       </div>
     </footer>
   );
