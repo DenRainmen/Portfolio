@@ -10,8 +10,8 @@ type PropsType = {
 export const ProjectCard = (props: PropsType) => {
   return (
     <div className={s.projectCard}>
-     {/*  <div style={props.style} className={s.projectLogo} > */}
-     <div className={s.projectLogo} >
+      <div style={props.style} className={s.projectLogo} >
+     
         <a href="#">
           <button>Watch</button>
         </a>

@@ -3,11 +3,13 @@ import React from "react";
 import "../App.css"
 import s from "./Skills.module.css";
 import { SkillCard } from "./SkillCard";
+import { TitleComponent } from "../TitleComponent/TitleComponent";
 
 export const Skills = () => {
   return (
     <section className="container skills">
-      <h2>My skills</h2>
+      {/* <h2>My skills</h2> */}
+      <TitleComponent>My skills</TitleComponent>
       <div className="skills">
         <SkillCard
           skillTitle={"HTML"}

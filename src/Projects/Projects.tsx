@@ -5,13 +5,19 @@ import s from "./Project.module.css";
 import "../App.css"
 import { ProjectCard } from "./ProjectCard";
 import { TitleComponent } from "../TitleComponent/TitleComponent";
-import todoImage from "../assets/images/squad.png" 
+import todoImage from "../assets/images/to-do-list-apps.png" 
+import socialImage from "../assets/images/social-network-app.png" 
 
 
 export const Projects = () => {
 
-  const backImg = {
+  const todoImg = {
     backgroundImage: `url(${todoImage})`,
+    
+  };
+
+  const socialImg = {
+    backgroundImage: `url(${socialImage})`,
     
   };
 
@@ -30,7 +36,7 @@ export const Projects = () => {
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
           }
           projectTitle={"Todolist"}
-          style={backImg}
+          style={todoImg}
         />
 
         <ProjectCard
@@ -38,7 +44,7 @@ export const Projects = () => {
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur"
           }
           projectTitle={"Social Network"}
-          style={backImg}
+          style={socialImg}
         />
 
        
