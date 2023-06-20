@@ -3,12 +3,14 @@ import s from "./Footer.module.css";
 
 import c from "../common/styles/Container.module.css";
 
+import "../App.css"
+
 export const Footer = () => {
   return (
-    <footer className={s.footer}>
-      <div className={`${c.container} ${c.footer}`}>
-        <h3>Denis Potarykin</h3>
-        <div className={c.photos}>
+    <footer className="container footer">
+      <div className="footer">
+        <h3 className={s.title_h3}>Denis Potarykin</h3>
+        <div className = "photos">
           <img src="" alt="" />
           <img src="" alt="" />
           <img src="" alt="" />

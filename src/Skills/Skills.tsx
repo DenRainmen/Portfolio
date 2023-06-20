@@ -1,14 +1,14 @@
 import React from "react";
-import c from "../common/styles/Container.module.css";
-
+/* import c from "../common/styles/Container.module.css"; */
+import "../App.css"
 import s from "./Skills.module.css";
 import { SkillCard } from "./SkillCard";
 
 export const Skills = () => {
   return (
-    <section className={s.skills}>
+    <section className="container skills">
       <h2>My skills</h2>
-      <div className={`${c.container} ${c.skills}`}>
+      <div className="skills">
         <SkillCard
           skillTitle={"HTML"}
           skillDecription={"Decription for HTML"}

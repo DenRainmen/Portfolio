@@ -1,33 +1,48 @@
 import React from "react";
 import s from "./Project.module.css";
 
-import c from "../common/styles/Container.module.css";
-
+/* import c from "../common/styles/Container.module.css"; */
+import "../App.css"
 import { ProjectCard } from "./ProjectCard";
+import { TitleComponent } from "../TitleComponent/TitleComponent";
+import todoImage from "../assets/images/squad.png" 
+
 
 export const Projects = () => {
+
+  const backImg = {
+    backgroundImage: `url(${todoImage})`,
+    
+  };
+
+
   return (
-    <section className={s.project}>
-      <h2>My Projects</h2>
-      <div className={`${c.container} ${c.project}`}>
+    <section className="container project">
+
+     
+      <TitleComponent>My projects</TitleComponent>
+
+
+      <div className="project">
+
         <ProjectCard
           projectDescription={
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
           }
-          projectTitle={"Project 1"}
+          projectTitle={"Todolist"}
+          style={backImg}
         />
+
         <ProjectCard
           projectDescription={
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur"
           }
-          projectTitle={"Project 2"}
+          projectTitle={"Social Network"}
+          style={backImg}
         />
-        <ProjectCard
-          projectDescription={
-            "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
-          }
-          projectTitle={"Project 3"}
-        />
+
+       
+        
       </div>
     </section>
   );
