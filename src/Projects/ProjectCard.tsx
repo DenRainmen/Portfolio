@@ -1,5 +1,5 @@
 import React from "react";
-import s from "./Project.module.css";
+import s from "./Project.module.scss";
 
 type PropsType = {
   projectTitle: string;
@@ -10,10 +10,10 @@ type PropsType = {
 export const ProjectCard = (props: PropsType) => {
   return (
     <div className={s.projectCard}>
-      <div style={props.style} className={s.projectLogo} >
+      <div className={s.projectLogo} style={props.style}  >
      
         <a href="#">
-          <button>Watch</button>
+         Watch
         </a>
       </div>
       <h4 className={s.projectTitle}>{props.projectTitle}</h4>
