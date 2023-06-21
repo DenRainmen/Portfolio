@@ -1,0 +1,85 @@
+@import  "../common/sass/variables.scss";
+
+
+
+
+
+.asideMenu{
+display: none;
+	width: 15vw;
+	height: 100vh;
+	background-color: $bgColorSecondary;
+	position:fixed;
+	z-index: 10;
+
+	.photo {
+  /* display: inline-block; */
+ /*  width: clamp(200px, 30%, 300px); */
+  /* width: 25vw;
+  height: 25vw;  */
+   width: clamp(100px, 10vw, 300px);
+   height: clamp(100px, 10vw, 300px);
+  background-color: grey;
+  border-radius: 100%;
+  background-image: url("../assets/images/me.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+
+span{
+	color: white;
+	font-weight: bold;
+	font-size: 1.2vw;
+}
+
+.nav {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	gap: 15px;
+
+	@media (max-width: 600px){
+		
+			justify-content:center;
+			
+}
+
+	a {
+			text-decoration-line: none;
+			color: white;
+			font-weight: 400;
+			font-family: 'Poppins', sans-serif;
+			font-size: 1vw;
+			line-height: 1.4;
+			letter-spacing: 1px;
+
+
+			@media (max-width: 600px){
+					font-family: cursive;
+					font-size: smaller;
+					
+	}
+	}
+
+	
+			
+}
+
+
+
+
+	@media (min-width: 1092px)  {
+		padding: 1.5vw;
+		display: flex;
+		flex-direction:column;
+		align-items: center;
+		text-align: center;
+		gap: 15px;
+		
+	}
+
+
+
+}
