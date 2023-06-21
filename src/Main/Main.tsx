@@ -3,6 +3,7 @@ import s from "./Main.module.css";
 /* import c from "../common/styles/Container.module.css"; */
 import "../App.css"
 
+
 export const Main = () => {
   return (
     <section className="container main">
@@ -12,9 +13,10 @@ export const Main = () => {
           <h1>Im Denis Potarykin</h1>
           <p>Im frontend developer </p>
         </div>
+        <div className={s.photo}>  </div>
 
         
-          <img className={s.photo} src="" alt="" />
+          {/* <img className={s.photo} src="../assets/images/me.jpg" alt="" /> */}
         
       </div>
     </section>
