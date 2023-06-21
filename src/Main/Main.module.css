@@ -33,8 +33,12 @@
 @media (max-width: 600px) {
   .greeting *{
     text-align: center;
-    color: blueviolet;
+    /* color: blueviolet; */
 
+  }
+
+  .greeting span{
+    font-size: 25px;;
   }
 }
 

@@ -10,8 +10,8 @@ export const Main = () => {
       <div className="main">
         <div className={s.greeting}>
           <span>Hi !</span>
-          <h1>Im Denis Potarykin</h1>
-          <p>Im frontend developer </p>
+          <h1>I`m Denis Potarykin</h1>
+          <p>I`m frontend developer </p>
         </div>
         <div className={s.photo}>  </div>
 
