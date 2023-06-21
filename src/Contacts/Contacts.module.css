@@ -5,3 +5,11 @@
   padding: 10px 0px 0px;
   /* background-color: #1f1f20; */
 }
+
+.form_control{
+  background: #252527 !important;
+	border: 1px solid #4a4a4a;
+	font-size: 12px;
+	padding: 0 15px;
+	border-radius: 0;
+}

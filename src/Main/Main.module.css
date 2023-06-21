@@ -9,13 +9,32 @@
   gap: 15px;
 }
 
-.gretting {
+.greeting * {
+  color:rgb(43, 226, 208)
 }
 
 .photo {
-  display: inline-block;
-  /* width: clamp(400px, 30%, 600px); */
-  width: 300px;
-  height: 400px;
+  /* display: inline-block; */
+ /*  width: clamp(200px, 30%, 300px); */
+  /* width: 25vw;
+  height: 25vw;  */
+   width: clamp(200px, 30vw, 300px);
+   height: clamp(200px, 30vw, 300px);
   background-color: grey;
+  border-radius: 100%;
+  background-image: url("../assets/images/me.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
 }
+
+
+@media (max-width: 600px) {
+  .greeting *{
+    text-align: center;
+    color: blueviolet;
+
+  }
+}
+

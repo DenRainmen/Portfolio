@@ -1,12 +1,13 @@
 import React from "react";
-import s from "./Header.module.css";
+import s from "./Header.module.scss";
 import { Nav } from "../Nav/Nav";
-import c from "../common/styles/Container.module.css";
+/* import c from "../common/styles/Container.module.css"; */
+import "../App.css"
 
 export const Header = () => {
   return (
-    <header className={s.header}>
-      <div className={c.container}>
+    <header className={`container ${s.header}`}>
+      <div className={`${s.header}`}>
         <Nav />
       </div>
     </header>

@@ -9,7 +9,7 @@ export const WorkVariants = () => {
     <section className="container variants">
       <div className = "variants">
         <h3>Looking into remote work options</h3>
-        <a href="#">
+        <a href="https://t.me/Rainmen" target="_blank">
           <button>Contact me</button>
         </a>
       </div>

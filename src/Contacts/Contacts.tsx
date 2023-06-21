@@ -8,12 +8,12 @@ export const Contacts = () => {
   return (
     <section className="container contacts">
       
-      <TitleComponent>Contacts</TitleComponent>
+      <TitleComponent>Link to me</TitleComponent>
       <div className="contacts">
         <form action="">
-          <input type="text" />
-          <input type="text" />
-          <textarea name="" id=""></textarea>
+          <input className={s.form_control} type="text" placeholder="Name" required />
+          <input className={s.form_control} type="text" placeholder="E-mail" required />
+          <textarea className={s.form_control} name="" id="" placeholder="Your message" rows = {7} required></textarea>
           <input type="button" value="Submit" />
         </form>
       </div>
