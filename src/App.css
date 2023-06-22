@@ -37,6 +37,14 @@ button, [type="button"] {
   color: cyan;
   border: 2px solid;
   outline: 3px solid rgb(15, 182, 168);
+  transition: 1s ease;
+}
+
+button:hover, [type="button"]:hover{
+  background-color: cyan;
+  color: #272727;
+  font-weight: bold;
+  
 }
 
 
