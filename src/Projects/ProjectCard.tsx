@@ -2,6 +2,7 @@ import React from "react";
 import s from "./Project.module.scss";
 
 type PropsType = {
+  link: string
   projectTitle: string;
   projectDescription: string;
   style?: {backgroundImage: string}
@@ -12,7 +13,7 @@ export const ProjectCard = (props: PropsType) => {
     <div className={s.projectCard}>
       <div className={s.projectLogo} style={props.style}  >
      
-        <a href="#">
+        <a href={props.link} target="_blank">
          Watch
         </a>
       </div>

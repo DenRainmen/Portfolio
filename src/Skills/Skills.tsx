@@ -13,7 +13,7 @@ export const Skills = () => {
     <section className="container skills">
       {/* <h2>My skills</h2> */}
       <TitleComponent>My skills</TitleComponent>
-      <div className="skills">
+      <div className="skills" id="skills">
 
         <SkillCard
           skillTitle={"HTML"}

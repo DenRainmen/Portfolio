@@ -36,9 +36,9 @@ const onClickHandler = () => {
 
         <nav className={active ? `${s.nav} ${s.active}` : s.nav}>
           <a href="#">Home</a>
-          <a href="#">Skills</a>
-          <a href="#">Projects</a>
-          <a href="#">Contacts</a>
+          <a href="#skills">Skills</a>
+          <a href="#project">Projects</a>
+          <a href="#contacts">Contacts</a>
         </nav>
 
       </div>

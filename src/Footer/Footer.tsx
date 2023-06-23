@@ -13,11 +13,25 @@ export const Footer = () => {
     <footer className="container footer">
       <div className="footer">
         <h3 className={s.title_h3}>Denis Potarykin</h3>
-        <div className = "photos">
-          <img src={telegramIcon} alt="" />
-          <img src={linkedinIcon} alt="" />
-          <img src={githubIcon} alt="" />
-          <img src={whatsappIcon} alt="" />
+        <div className="photos">
+
+          <a href="https://ya.ru" target="_blank">
+            <img src={telegramIcon} alt="" />
+          </a>
+          <a href="https://ya.ru" target="_blank">
+            <img src={linkedinIcon} alt="" />
+          </a>
+          <a href="https://ya.ru" target="_blank">
+           <img src={githubIcon} alt="" />
+          </a>
+          <a href="https://ya.ru" target="_blank">
+           <img src={whatsappIcon} alt="" />
+          </a>
+          
+
+          
+          
+          
         </div>
         <span>2024. All rights reserved.</span>
       </div>

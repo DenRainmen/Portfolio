@@ -29,7 +29,7 @@ export const Projects = () => {
       <TitleComponent>My projects</TitleComponent>
 
 
-      <div className="project">
+      <div className="project" id="project">
 
         <ProjectCard
           projectDescription={
@@ -37,6 +37,7 @@ export const Projects = () => {
           }
           projectTitle={"Todolist"}
           style={todoImg}
+          link = {"https://todolist-dark-mode.vercel.app/"}
         />
 
         <ProjectCard
@@ -45,6 +46,7 @@ export const Projects = () => {
           }
           projectTitle={"Social Network"}
           style={socialImg}
+          link ={"https://denrainmen.github.io/social-network/"}
         />
 
        

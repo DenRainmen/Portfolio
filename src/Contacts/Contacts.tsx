@@ -9,7 +9,7 @@ export const Contacts = () => {
     <section className="container contacts">
       
       <TitleComponent>Link to me</TitleComponent>
-      <div className="contacts">
+      <div className="contacts" id="contacts">
         <form action="">
           <input className={s.form_control} type="text" placeholder="Name" required />
           <input className={s.form_control} type="text" placeholder="E-mail" required />

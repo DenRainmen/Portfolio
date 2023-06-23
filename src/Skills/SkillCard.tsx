@@ -16,7 +16,7 @@ export const SkillCard = (props: PropsType) => {
         <img src={props.skillIcon} width="60px" />
       </div>
       <h3 className={s.skillTitle}>{props.skillTitle}</h3>
-      <p className={s.skillDescription}>{props.skillDecription}</p>
+      {/* <p className={s.skillDescription}>{props.skillDecription}</p> */}
     </div>
   );
 };
