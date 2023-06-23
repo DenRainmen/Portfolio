@@ -32,7 +32,26 @@
  
 }
 
-.skillDescription {
-  text-align: center;
-/*   border: 1px solid; */
+.skillsDescription{
+  /* border: 1px solid; */
+  width: 100%;
+  text-align: left;
+  color: rgb(79, 141, 147);
+  font: 400 14px/1.8 'Poppins', sans-serif;
+  padding-left: 5vw;
+  
+}
+
+
+.skillsDescription ul li{
+  list-style-type: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color: rgb(255, 255, 0);
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
 }
