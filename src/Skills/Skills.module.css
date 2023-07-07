@@ -36,22 +36,47 @@
   /* border: 1px solid; */
   width: 100%;
   text-align: left;
-  color: rgb(79, 141, 147);
-  font: 400 14px/1.8 'Poppins', sans-serif;
-  padding-left: 5vw;
+  color: rgb(94, 198, 207);
+  font: 400 1.4vw 'Poppins', sans-serif;
+  padding: 2vw 5vw;
+  background-color: #064042;
+
+  display: flex;
+  flex-wrap: wrap;
   
 }
 
+ul{
+  /* width: 60%; */
+}
 
 .skillsDescription ul li{
   list-style-type: none;
+  font-size: 1vw;
+}
+
+.skillsDescription ul li:nth-child(odd){
+  padding: 2vw 0; 
 }
 
 ul li::before {
-  content: "\2022";
-  color: rgb(255, 255, 0);
-  font-weight: bold;
-  display: inline-block; 
-  width: 1em;
-  margin-left: -1em;
+  content: "⭐";
+ font-size: 3vw;
+  
+  padding-right: 2vw;
+
+
 }
+
+.progress{
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1vw 1vw;
+  gap: 2vw;
+  /* flex-grow: 1; */
+}
+
+

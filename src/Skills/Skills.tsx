@@ -35,23 +35,42 @@ export const Skills = () => {
       <div className={s.skillsDescription}>
         <ul>
           <li>
+            Владение JS-библиотекой React + Redux;
+          </li>
+          <li>
+            TypeScript.
+          </li>
+          <li>
+            Опыт написания тестов (TDD , Jest, Vitest);
+          </li>
+          <li>
+            Работа с инструментами сборки (npm, yarn, Vite, CRA);
+          </li>
+          <li>
             Знание JavaScript ES16-22;
           </li>
           <li>
-            Умение верстать по технике PixelPerfect;
+            Знание систем контроля версий Git;
           </li>
           <li>
-            Нейминг по методологии БЭМ;
-
-          </li>
-          <li>
-            Работа с HTML-препроцессорами (pug);
+            Навыки работы с инструментами дизайна и обработки изображений(Figma, Pixco);
 
           </li>
           <li>
             Работа с CSS-препроцессорами (SCSS/SASS);
 
           </li>
+          <li>
+            Умение верстать по технике PixelPerfect;
+          </li>
+
+
+
+          <li>
+            Работа с HTML-препроцессорами (pug);
+
+          </li>
+
           <li>
             Адаптивная/кроссбраузерная верстка;
 
@@ -61,11 +80,7 @@ export const Skills = () => {
 
 
           </li>
-          <li>
-            Работа с инструментами сборки (npm, yarn, Vite, CRA);
 
-
-          </li>
           <li>
             Компонентный подход в разработке;
           </li>
@@ -76,26 +91,21 @@ export const Skills = () => {
             Соблюдение заданных на проекте стандартов и требований;
           </li>
           <li>
-            Базовое владение JS-библиотекой React + Redux;
+            Нейминг по методологии БЭМ;
           </li>
-          <li>
-            Знание систем контроля версий Git;
-          </li>
-          <li>
-            Базовые навыки работы с инструментами дизайна и обработки изображений(Figma);
 
-          </li>
-          <li>
-            Опыт написания тестов;
-          </li>
-          <li>
-            TypeScript.
-          </li>
+
+
+
 
 
 
 
         </ul>
+{/* <div className={s.progress}>
+        <div className="progress-radial progress-85"><b></b></div>
+        <div className="progress-radial progress-25"><b></b></div>
+</div> */}
       </div>
     </section>
   );

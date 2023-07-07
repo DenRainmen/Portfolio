@@ -15,16 +15,16 @@ export const Footer = () => {
         <h3 className={s.title_h3}>Denis Potarykin</h3>
         <div className="photos">
 
-          <a href="https://ya.ru" target="_blank">
+          <a href="https://t.me/Rainmen" target="_blank">
             <img src={telegramIcon} alt="" />
           </a>
-          <a href="https://ya.ru" target="_blank">
+          <a href="https://www.linkedin.com/in/denis-potarykin/" target="_blank">
             <img src={linkedinIcon} alt="" />
           </a>
-          <a href="https://ya.ru" target="_blank">
+          <a href="#" target="_blank">
            <img src={githubIcon} alt="" />
           </a>
-          <a href="https://ya.ru" target="_blank">
+          <a href="#" target="_blank">
            <img src={whatsappIcon} alt="" />
           </a>
           
